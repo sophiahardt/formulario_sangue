@@ -36,5 +36,20 @@ form.addEventListener("submit", function (event) {
         return;
     }
 
+    if (!cidade) {
+        alert("É obrigatório informar a sua cidade");
+        return;
+    }
+
+    if (!estado) {
+        alert("É obrigatório informar a seu estado");
+        return;
+    }
+
+    if (!tipoSangue) {
+        alert("Informe seu tipo sanguíneo");
+        return;
+    }
+
 
 });
