@@ -1,4 +1,7 @@
 const form = document.getElementById("formularioDoacao");
+
+const cadastros = [];
+
 form.addEventListener("submit", function (event) {
     event.preventDefault();
 
@@ -51,5 +54,19 @@ form.addEventListener("submit", function (event) {
         return;
     }
 
+    let cadastro = {
+        nome,
+        email,
+        idade,
+        peso,
+        telefone,
+        cidade,
+        estado,
+        tipoSangue,
+    };
+
+    cadastros.push(cadastro);
+    console.log(cadastros);
+    alert("Cadastro realizado com sucesso");
 
 });
