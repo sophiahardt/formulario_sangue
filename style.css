@@ -41,6 +41,7 @@ main{
     color: white;
     text-align: center;
     padding: 20px;
+    font-size: 20px;
 }
 
 form{
@@ -56,3 +57,12 @@ input,select{
     outline: none;
 }
 
+button{
+    padding: 14px;
+    background-color: red;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
